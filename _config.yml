@@ -6,7 +6,7 @@
 title: 王将-blog
 subtitle: 王将的博客
 description: 王将的博客
-keywords: ["技术博客","wangjiang988","java","php","python"]
+keywords: ["技术博客","wangjiang988","java","php","python", "go"]
 author: jiangwang
 language: zh-CN
 timezone:
@@ -73,7 +73,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: material-flow
+# theme: material-flow
+theme: Anisina
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
