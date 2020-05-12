@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://wangjiang988.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -75,6 +75,17 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 # theme: material-flow
 theme: Anisina
+
+# mini about
+sidebar: true
+sidebar-about-description: "两条线"
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 0             # A tag will be featured if the size of it is more than this condition value
+
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
