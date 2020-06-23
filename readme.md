@@ -1,6 +1,6 @@
 # 部署步骤
-hexo g
-hexo d
+    hexo g
+    hexo d
 
 ## 添加主题 
 
@@ -8,3 +8,8 @@ hexo d
     主题地址： https://github.com/Haojen/hexo-theme-Anisina
 
 ## todo 添加自己的文章博客
+
+
+## 新增文章
+
+    hexo new post {title}
