@@ -12,6 +12,7 @@ categories:
 ## 说明
 
 virtualbox 安装虚拟机centos7后，设置静态IP过程
+<!-- more -->
 
 ## 步骤
 

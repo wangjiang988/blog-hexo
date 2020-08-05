@@ -13,6 +13,7 @@ categories:
 
 > 微服务的图片保存问题，如果不用fastdfs这种方案，那么需要本地存储
 
+<!-- more -->
 
 在docker swarm 部署方案中
 

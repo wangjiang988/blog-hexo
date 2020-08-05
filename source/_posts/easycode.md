@@ -14,6 +14,7 @@ easycode 是我业余时间开发的一款代码生成工具。
 
 一开始主要是想看看vue-cli的脚手架写法，后来我发现node非常适合写这种项目的脚手架，且网上教程也很多，于是便萌生了写下一款代替CV大法的工具。
 
+<!-- more -->
 ## 项目地址
 
 npmjs : https://www.npmjs.com/package/@wangjiang988/easycode

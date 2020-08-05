@@ -74,7 +74,8 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: material-flow
-theme: Anisina
+# theme: Anisina
+theme: next
 
 # mini about
 sidebar: true

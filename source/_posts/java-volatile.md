@@ -7,13 +7,16 @@ tags:
     - volatile
     - 高并发
 categories:
-    - [java]]
+    - [java]
     - [jvm]
 ---
 
 ## 说明
 
 volatile 关键字介绍
+
+ <!-- more -->
+
 
 ### 并发编程的三大特性
 
@@ -37,6 +40,7 @@ volatile 关键字介绍
     3. JUC的lock
 
     - happen-before原则
+
 
 ### volatile深入
 
