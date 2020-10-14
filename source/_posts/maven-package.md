@@ -18,13 +18,9 @@ maven 模块化目录结构，jar或war包打包到统一父路径的pom.xml设�
 
 ### 项目结构
 
-
-
-<img src="./demo/image-20201012093409146.png" alt="image-20201012093409146" style="zoom:25%;" />
+![image](/img/maven-package/image-20201012093409146.png)
 
 将druid-test的包打到父级目录下
-
-
 
 ### 打包代码
 
@@ -147,7 +143,7 @@ https://www.cnblogs.com/selier/p/9510326.html
                         <type>${project.packaging}</type>
                         <overWrite>true</overWrite>
                         <outputDirectory>../../target/</outputDirectory>
-                        <destFileName>cs-onekey-selftest-java.jar</destFileName>
+                        <destFileName>app.jar</destFileName>
                     </artifactItem>
                 </artifactItems>
             </configuration>
@@ -201,7 +197,7 @@ https://www.cnblogs.com/selier/p/9510326.html
                         <type>${project.packaging}</type>
                         <overWrite>true</overWrite>
                         <outputDirectory>../../target/</outputDirectory>
-                        <destFileName>cs-onekey-selftest-java.jar</destFileName>
+                        <destFileName>app.jar</destFileName>
                     </artifactItem>
                 </artifactItems>
             </configuration>
