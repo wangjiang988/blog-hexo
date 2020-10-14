@@ -123,40 +123,37 @@ https://www.cnblogs.com/selier/p/9510326.html
 
 ### 常见问题
 
-> 1.  maven-dependency-plugin 复制包失败
-
-复制出来的包小了很多
-
+> 1.  maven-dependency-plugin 复制包失败，复制出来的包小了很多
 
 
 ```
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-dependency-plugin</artifactId>-->
-<!--                <version>3.1.1</version>-->
-<!--                <executions>-->
-<!--                    <execution>-->
-<!--                        <id>copy</id>-->
-<!--                        <phase>package</phase>-->
-<!--                        <goals>-->
-<!--                            <goal>copy</goal>-->
-<!--                        </goals>-->
-<!--                        <configuration>-->
-<!--                            <artifactItems>-->
-<!--                                <artifactItem>-->
-<!--                                    <groupId>${project.groupId}</groupId>-->
-<!--                                    <artifactId>${project.artifactId}</artifactId>-->
-<!--                                    <version>${project.version}</version>-->
-<!--                                    <type>${project.packaging}</type>-->
-<!--                                    <overWrite>true</overWrite>-->
-<!--                                    <outputDirectory>../../target/</outputDirectory>-->
-<!--                                    <destFileName>cs-onekey-selftest-java.jar</destFileName>-->
-<!--                                </artifactItem>-->
-<!--                            </artifactItems>-->
-<!--                        </configuration>-->
-<!--                    </execution>-->
-<!--                </executions>-->
-<!--            </plugin>-->
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-dependency-plugin</artifactId>
+    <version>3.1.1</version>
+    <executions>
+        <execution>
+            <id>copy</id>
+            <phase>package</phase>
+            <goals>
+                <goal>copy</goal>
+            </goals>
+            <configuration>
+                <artifactItems>
+                    <artifactItem>
+                        <groupId>${project.groupId}</groupId>
+                        <artifactId>${project.artifactId}</artifactId>
+                        <version>${project.version}</version>
+                        <type>${project.packaging}</type>
+                        <overWrite>true</overWrite>
+                        <outputDirectory>../../target/</outputDirectory>
+                        <destFileName>cs-onekey-selftest-java.jar</destFileName>
+                    </artifactItem>
+                </artifactItems>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
 ```
 
 
