@@ -4,7 +4,7 @@ title: maven 模块化目录结构，jar或war包打包到统一父路径
 date: 2020-10-14 22:05:00
 tags:
     - java
-    - jmm
+    - maven
 categories:
     - [java]
     - [maven]
