@@ -18,5 +18,6 @@
     2020-09-27 修改主题为next
     2020-10-14 去掉站点地图和日程表
     _config.xml 搜sitemap
+    hexo clean  hexo g hexo d
 
     
